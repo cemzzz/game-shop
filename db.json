@@ -2,11 +2,12 @@
     "products":[
         {
             "id":0,
-            "img":"https://image.api.playstation.com/vulcan/ap/rnd/202405/2117/bd406f42e9352fdb398efcf21a4ffe575b2306ac40089d21.png?w=440&thumb=false",
+            "img":"https://image.api.playstation.com/vulcan/ap/rnd/202405/2117/bd406f42e9352fdb398efcf21a4ffe575b2306ac40089d21.png?w=40&thumb=false",
             "title":"검은 신화: 오공",
             "price":69000,
             "discountRate": 20,
             "onSale": false,
+            "like" : 3500,
             "adult":true
         },
         {
@@ -16,6 +17,7 @@
             "price": 72000,
             "discountRate": 40,
             "onSale": true,
+            "like" : 1500,
             "adult": false
         },
         {
@@ -25,6 +27,7 @@
             "price": 80000,
             "discountRate": 20,
             "onSale": true,
+            "like" : 500,
             "adult": true
         },
         {
@@ -34,6 +37,7 @@
             "price": 75000,
             "discountRate": 10,
             "onSale": false,
+            "like" : 1200,
             "adult": true
         },
         {
@@ -43,6 +47,7 @@
             "price": 60000,
             "discountRate": 10,
             "onSale": false,
+            "like" : 750,
             "adult": true
         },
         {
@@ -52,6 +57,7 @@
             "price": 69000,
             "discountRate": 15,
             "onSale": false,
+            "like" : 1500,
             "adult": true
         },
         {
@@ -61,6 +67,7 @@
             "price": 70000,
             "discountRate": 10,
             "onSale": true,
+            "like" : 500,
             "adult": false
         },
         {
@@ -70,6 +77,7 @@
             "price": 40000,
             "discountRate": 40,
             "onSale": true,
+            "like" : 1350,
             "adult": false
         },
         {
@@ -79,6 +87,7 @@
             "price": 79000,
             "discountRate": 50,
             "onSale": true,
+            "like" : 400,
             "adult": true
         },
         {
@@ -88,6 +97,7 @@
             "price": 75000,
             "discountRate": 25,
             "onSale": false,
+            "like" : 2210,
             "adult": true
         },
         {
@@ -97,6 +107,7 @@
             "price": 59000,
             "discountRate": 50,
             "onSale": true,
+            "like" : 1780,
             "adult": true
         },
         {
@@ -106,6 +117,7 @@
             "price": 69000,
             "discountRate": 35,
             "onSale": false,
+            "like" : 1500,
             "adult": true
         },
         {
@@ -115,6 +127,7 @@
             "price": 55000,
             "discountRate": 35,
             "onSale": true,
+            "like" : 300,
             "adult": true
         },
         {
@@ -124,6 +137,7 @@
             "discountRate": 0,
             "onSale": false,
             "price": 0,
+            "like" : 2200,
             "adult": false
         },
         {
@@ -133,6 +147,7 @@
             "discountRate": 70,
             "onSale": false,
             "price": 21000,
+            "like" : 2235,
             "adult": true
         },
         {
@@ -142,6 +157,7 @@
             "discountRate": 0,
             "onSale": false,
             "price": 0,
+            "like" : 1600,
             "adult": true
         },
         {
@@ -151,6 +167,7 @@
             "discountRate": 40,
             "onSale": false,
             "price": 79000,
+            "like" : 1750,
             "adult": true
         },
         {
@@ -160,6 +177,7 @@
             "discountRate": 10,
             "onSale": true,
             "price": 83000,
+            "like" : 1000,
             "adult": false
         }
     ]

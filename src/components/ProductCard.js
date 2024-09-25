@@ -8,15 +8,16 @@ const ProductCard = ({item}) => {
   return (
     <div>
         <div className='card-container'>
-            <img className='card-img' src={item?.img}/>
+            <img className='card-img' src={item?.img} alt={item?.title}/>
             <div className='card-title'>{item?.title}</div>
             <div className='card-price'>
             {
                 originalPrice === 0
                     ? "무료"
-                    : item?.onSale == true
+                    : item?.onSale === true
                         ? (
                             <>
+                                <span className="discountRate">{item?.discountRate}%</span>
                                 <span className="original-price">₩{originalPrice.toLocaleString('ko-KR')}</span>
                                 <span className="discounted-price"> ₩{discountedPrice.toLocaleString('ko-KR')}</span>
                             </>
@@ -25,7 +26,7 @@ const ProductCard = ({item}) => {
             }
             </div>
             <div className='card-adult'>
-                {item?.adult == true ? "성인 등급" : ""}
+                {item?.adult === true ? "성인 등급" : ""}
             </div>
         </div>
     </div>

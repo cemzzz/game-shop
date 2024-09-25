@@ -30,6 +30,14 @@
     font-size: 13px;
 }
 
+.discountRate{
+    padding: 5px;
+    border: 1px solid #7dad3a;
+    background-color: #7dad3a;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
 .original-price {
     text-decoration: line-through;
     color: rgba(190, 190, 190, 0.8);
@@ -43,6 +51,7 @@
 }
 
 .card-adult{
+    margin-top: 5px;
     font-size: 11px;
     color: red;
 }
