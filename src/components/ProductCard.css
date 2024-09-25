@@ -1,0 +1,48 @@
+.card-container{
+    margin-bottom: 20px;
+}
+
+.card-container:hover{
+    cursor: pointer;
+}
+
+.card-img{
+    width: 100%;
+    height: 330px;
+    object-fit: fill;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.card-img:hover{
+    transform: scale(1.03);
+    border: 2px solid bisque;
+}
+
+
+.card-title{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.card-price{
+    font-size: 13px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: rgba(190, 190, 190, 0.8);
+    font-size: 12px;
+    margin-right: 10px;
+}
+  
+.discounted-price {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card-adult{
+    font-size: 11px;
+    color: red;
+}

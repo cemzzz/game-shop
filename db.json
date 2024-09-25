@@ -5,6 +5,8 @@
             "img":"https://image.api.playstation.com/vulcan/ap/rnd/202405/2117/bd406f42e9352fdb398efcf21a4ffe575b2306ac40089d21.png?w=440&thumb=false",
             "title":"검은 신화: 오공",
             "price":69000,
+            "discountRate": 20,
+            "onSale": false,
             "adult":true
         },
         {
@@ -12,6 +14,8 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/djK6jT1fLm7oeEUpzbBguyad.png?w=440&thumb=false",
             "title": "호라이즌 포비든 웨스트",
             "price": 72000,
+            "discountRate": 40,
+            "onSale": true,
             "adult": false
         },
         {
@@ -19,6 +23,8 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1117/HHaDDImrG8LTTepkc1cTWYSb.png?w=440&thumb=false",
             "title": "갓 오브 워 라그나로크",
             "price": 80000,
+            "discountRate": 20,
+            "onSale": true,
             "adult": true
         },
         {
@@ -26,6 +32,8 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202211/1404/RMELUDlp2uzJ3EmsVhzr00A6.png?w=440&thumb=false",
             "title": "파이널 판타지 XVI",
             "price": 75000,
+            "discountRate": 10,
+            "onSale": false,
             "adult": true
         },
         {
@@ -33,6 +41,8 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2214/7aFAQ28D5avzogf7TFg11ryH.png?w=440&thumb=false",
             "title": "데스 스트랜딩 디렉터스 컷",
             "price": 60000,
+            "discountRate": 10,
+            "onSale": false,
             "adult": true
         },
         {
@@ -40,6 +50,8 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/qzLA7yc2Z85jeqOgLK8Fn1fG.png?w=440&thumb=false",
             "title": "바이오 하자드 빌리지",
             "price": 69000,
+            "discountRate": 15,
+            "onSale": false,
             "adult": true
         },
         {
@@ -47,6 +59,8 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/yZ7dpmjtHr1olhutHT57IFRh.png?w=440&thumb=false",
             "title": "그란 투리스모 7",
             "price": 70000,
+            "discountRate": 10,
+            "onSale": true,
             "adult": false
         },
         {
@@ -54,6 +68,8 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png?w=440&thumb=false",
             "title": "잇 테이크스 투",
             "price": 40000,
+            "discountRate": 40,
+            "onSale": true,
             "adult": false
         },
         {
@@ -61,6 +77,8 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202405/3123/1abfc0f37be11993bd5e67fcb1a9e2c0d656142ace2f232e.png?w=440&thumb=false",
             "title": "디아블로 IV",
             "price": 79000,
+            "discountRate": 50,
+            "onSale": true,
             "adult": true
         },
         {
@@ -68,6 +86,8 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202108/0410/np2Eb60bDep9fDWtqNNSzqZI.png?w=440&thumb=false",
             "title": "엘든 링",
             "price": 75000,
+            "discountRate": 25,
+            "onSale": false,
             "adult": true
         },
         {
@@ -75,6 +95,8 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202111/3013/wTHTD6xDqiFEKL2JPZDRN57n.png?w=440&thumb=false",
             "title": "사이버펑크 2077",
             "price": 59000,
+            "discountRate": 50,
+            "onSale": true,
             "adult": true
         },
         {
@@ -82,6 +104,8 @@
             "img": "https://image.api.playstation.com/vulcan/img/rnd/202010/2701/sVLb4wrkXcFff2uuSS8tvErW.png?w=440&thumb=false",
             "title": "세키로: 섀도우 다이 트와이스",
             "price": 69000,
+            "discountRate": 35,
+            "onSale": false,
             "adult": true
         },
         {
@@ -89,12 +113,16 @@
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202102/1214/gcMVHVG82HnDo0A6WHl6WR6H.png?w=440&thumb=false",
             "title": "디스코 엘리시움",
             "price": 55000,
+            "discountRate": 35,
+            "onSale": true,
             "adult": true
         },
         {
             "id": 14,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202408/2010/be34a9f718363d63217057ddcc202a6847e532be4cd7b075.png?w=440&thumb=false",
             "title": "원신",
+            "discountRate": 0,
+            "onSale": false,
             "price": 0,
             "adult": false
         },
@@ -102,6 +130,8 @@
             "id": 15,
             "img": "https://image.api.playstation.com/cdn/HP0102/CUSA09554_00/l9eJJZczCIIcT1otva8c0EvKhlVyPy0zVLdhVZ5RJzO7NGZrRvoDOhIEFU1sJwtM.png?w=440&thumb=false",
             "title": "몬스터 헌터: 월드",
+            "discountRate": 70,
+            "onSale": false,
             "price": 21000,
             "adult": true
         },
@@ -109,6 +139,8 @@
             "id": 16,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202409/0304/db646393eb32d9c7d947a703fa6ea01fae60781bc1841148.png?w=440&thumb=false",
             "title": "퍼스트 디센던트",
+            "discountRate": 0,
+            "onSale": false,
             "price": 0,
             "adult": true
         },
@@ -116,6 +148,8 @@
             "id": 17,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202205/2800/W5uSEsW7yefCNTHatS03v5q7.png?w=440&thumb=false",
             "title": "콜 오브 듀티: 모던 워페어 II",
+            "discountRate": 40,
+            "onSale": false,
             "price": 79000,
             "adult": true
         },
@@ -123,6 +157,8 @@
             "id": 18,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202407/1814/07a6fda04cc8874d465605538724103f78e3f4deeede69d3.png?w=440&thumb=false",
             "title": "FC25",
+            "discountRate": 10,
+            "onSale": true,
             "price": 83000,
             "adult": false
         }

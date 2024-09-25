@@ -1,0 +1,35 @@
+import React from 'react'
+import './ProductCard.css';
+
+const ProductCard = ({item}) => {
+  const originalPrice = item?.price; // 원래 가격
+  const discountedPrice = originalPrice - (originalPrice * (item?.discountRate / 100)); // 할인 가격
+
+  return (
+    <div>
+        <div className='card-container'>
+            <img className='card-img' src={item?.img}/>
+            <div className='card-title'>{item?.title}</div>
+            <div className='card-price'>
+            {
+                originalPrice === 0
+                    ? "무료"
+                    : item?.onSale == true
+                        ? (
+                            <>
+                                <span className="original-price">₩{originalPrice.toLocaleString('ko-KR')}</span>
+                                <span className="discounted-price"> ₩{discountedPrice.toLocaleString('ko-KR')}</span>
+                            </>
+                        ) 
+                        : `₩${originalPrice.toLocaleString('ko-KR')}`
+            }
+            </div>
+            <div className='card-adult'>
+                {item?.adult == true ? "성인 등급" : ""}
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default ProductCard

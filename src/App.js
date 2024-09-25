@@ -1,11 +1,9 @@
 import { Routes, Route } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './App.css';
 import Home from './page/Home';
 import Login from './page/Login';
 import ProductDetail from './page/ProductDetail';
 import Navbar from './components/Navbar';
-
 
 
 function App() {
