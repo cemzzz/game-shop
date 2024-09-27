@@ -20,7 +20,7 @@ const Home = () => {
 
   // like 상위 제품 정렬
   const sortedProduct = [...productList]
-    .sort((a, b) => b.like = a.like) // 내림차순
+    .sort((a, b) => b.like - a.like) // 내림차순
     .slice(0, 5); // 상위 5개 선택
 
   return (

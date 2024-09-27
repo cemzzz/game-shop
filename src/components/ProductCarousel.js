@@ -23,7 +23,7 @@ const Carousel = ({sortedProduct}) => {
         setMainImage(sortedProduct[nextIndex].img); // 메인 이미지 업데이트
         return nextIndex; // 현재 인덱스 반환
       });
-    }, 3000); // 3초 후 다음 이미지로 전환
+    }, 5000); // 5초 후 다음 이미지로 전환
   }, [sortedProduct]);
 
    //서브 이미지 클릭 시 메인 이미지로 출력
@@ -52,7 +52,7 @@ const Carousel = ({sortedProduct}) => {
     <div>
       <Container className='carousel-container'>
         <Row>
-          <Col lg={8}>
+          <Col lg={8} md={12} sm={12}>
             <div className='carousel-main'>
               <img className='carousel-main-img' src={mainImage} alt='' />
               <div className='carousel-main-info'>
@@ -75,7 +75,7 @@ const Carousel = ({sortedProduct}) => {
               </div>
             </div>
           </Col>
-          <Col lg={4}>
+          <Col lg={4} className='d-none d-lg-block'>
             <div className='carousel-sub'>
               {sortedProduct.map((sorted, index) => (
                 <div 
@@ -90,6 +90,15 @@ const Carousel = ({sortedProduct}) => {
             </div>
           </Col>
         </Row>
+        <div className='d-block d-lg-none text-center carousel-indicators'>
+          {sortedProduct.map((sorted, index) => (
+            <span
+              key={sorted.id}
+              className={`dot ${index === currentIndex ? 'active' : ''}`}
+              onClick={() => subImageClick(sorted.img)}
+            />
+          ))}
+        </div>
       </Container>
 
     </div>
