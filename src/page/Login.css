@@ -1,0 +1,113 @@
+.login-container{
+    background-color: #202020;
+    padding: 40px;
+    border-radius: 5px;
+    width: 480px;
+}
+
+/* 타이틀 영역 */
+
+.login-title-logo {
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 25px;
+}
+
+
+.login-title-text{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+/* 로그인 input 폼  */
+.login-input-form{
+    padding: 13px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #686868;
+    color: white;
+}
+
+.login-input-form::placeholder{
+    color: #686868;
+}
+
+.login-input-form:focus{
+    background-color: transparent;
+    border: 1px solid #0D6EFD;
+    color: white;
+}
+
+.forget-pwd{
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 30px;   
+}
+
+.forget-pwd:hover{
+    cursor: pointer;
+}
+
+/* 로그인 버튼 */
+.login-button{
+    width: 100%;
+    padding: 15px;
+    font-size: 13px;
+    
+}
+
+/* 소셜 로그인 영역 */
+.social-login-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-login-noti-text{
+    font-size: 14px;
+    color: #cfcfcf;
+}
+
+.social-login-icon-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    justify-items: center;
+    
+}
+
+.social-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.social-icon:hover{
+    cursor: pointer;
+    filter: brightness(0.85);
+}
+
+.steam-icon{
+    color: #145C8F;
+    background-color: white;
+}
+
+.battleNet-icon{
+    background-color: #1877F2;
+    color: white;
+}
+
+.ps-icon{
+    color: #003791;
+    background-color: white;
+}
+
+.xBox-icon{
+    color: white;
+    background-color: #027D00;
+}

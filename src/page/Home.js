@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import ProductCard from '../components/ProductCard';
 import { Col, Container, Row } from 'react-bootstrap';
 import ProductCarousel from '../components/ProductCarousel';
+import SearchBar from '../components/SearchBar';
 
 const Home = () => {
   const [productList, setProductList] = useState([]);
@@ -26,6 +27,7 @@ const Home = () => {
   return (
     <div>
       <Container>
+        <SearchBar />
         <Row>
           <ProductCarousel sortedProduct={sortedProduct}/>
         </Row>
