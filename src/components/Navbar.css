@@ -40,8 +40,41 @@ body{
 }
 
 .navbar-top-right{
+    display: flex;
+    align-items: center;
     margin-right: 30px;
 }
+
+/* 장바구니 영역 */
+.navbar-cart-area{
+    display: flex;
+    margin-right: 10px;
+    position: relative;
+}
+
+.navbar-cart-button{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.navbar-cart-num{
+    position:absolute;
+    font-size: 14px;
+    background-color: #26BBFF;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    right: 10px;
+    top: -10px;
+}
+
+.navbar-cart-button:hover{
+    color: #bfbfce;
+    cursor: pointer;
+}
+
+/* 로그인 버튼 영역 */
 
 .navbar-top-login-button{
     color: white;

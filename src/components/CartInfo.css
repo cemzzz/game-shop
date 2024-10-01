@@ -1,0 +1,105 @@
+
+
+/* 장바구니 정보 영역 */
+.cart-info-container{
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.cart-game-img{
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: fill;
+}
+
+.cart-game-info-area{
+    width: 100%;
+    position: relative;
+}
+
+.cart-game-title-area{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.cart-game-price{
+    font-size: 13px;
+}
+
+.cart-game-platform{
+    font-size: 12px;
+    color: rgba(200, 200, 200, 0.8);
+}
+
+.cart-game-delete{
+    font-size: 12px;
+    color: rgba(200, 200, 200, 0.8);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.cart-game-delete:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* 장바구니 결제 정보 영역 */
+.cart-buy-info-container{
+    position: sticky;
+}
+
+.cart-buy-info-title{
+    font-size: 20px;
+}
+
+.cart-buy-price-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;
+}
+
+.cart-buy-price-title{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.cart-buy-price-content{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.cart-buy-price-total-title{
+    font-size: 15px;
+}
+
+.cart-buy-price-total-content{
+    font-size: 15px;
+}
+
+.cart-buy-underline{
+    width: 100%;
+    border-bottom: 1px solid #84848b;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.cart-buy-button{
+    width: 100%;
+    border-style: none;
+    padding: 10px;
+    background-color: #26BBFF;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.discount-rate{
+    color: #7DAD3A;
+}

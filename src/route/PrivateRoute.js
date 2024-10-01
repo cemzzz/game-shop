@@ -5,9 +5,13 @@ import ProductDetail from '../page/ProductDetail';
 
 const PrivateRoute = ({authenticate}) => {
   return (
-    authenticate === true 
+    <div>
+      {
+        authenticate === true 
         ? <ProductDetail />
         : <Navigate to='/login'/>
+      }
+    </div>
   )
 }
 

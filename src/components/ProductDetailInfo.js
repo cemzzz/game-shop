@@ -1,12 +1,15 @@
 import React, {useEffect, useState} from 'react'
+import { useDispatch, useSelector } from 'react-redux';
 import './ProductDetailInfo.css';
 import { Col, Container, Row } from 'react-bootstrap'
 import SpecInfo from './SpecInfo';
 
 const ProductDetailInfo = ({product}) => {
+  const dispatch = useDispatch();
+  const cartItems = useSelector(state => state.cart);  
+
   const originalPrice = product?.price; // 원래 가격
   const discountedPrice = originalPrice - (originalPrice * (product?.discountRate / 100)); // 할인 가격
-  
   const [selectedImage, setSelectedImage] = useState('');
 
   useEffect(() => {
@@ -14,6 +17,19 @@ const ProductDetailInfo = ({product}) => {
       setSelectedImage(product.detailImages[0]);
     }
   }, [product]);
+
+   // 장바구니에 추가
+  const addToCart = () => {
+    if (product) {
+      const existingItem = cartItems.find(cartItem => cartItem.id === product.id);
+      if (existingItem) {
+        alert('이미 장바구니에 담긴 상품입니다.'); // 중복 알림
+      } else {
+        dispatch({ type: 'ADD_TO_CART', payload: product });
+        alert('장바구니에 제품이 추가되었습니다!');
+      }
+    }
+  };
 
   return (
     <div>
@@ -59,7 +75,7 @@ const ProductDetailInfo = ({product}) => {
             </div>
             <div className='product-info-btn-container'>
               <button className='buy-button'>지금 구매</button>
-              <button className='cart-button'>장바구니 담기</button>
+              <button className='cart-button' onClick={addToCart}>장바구니 담기</button>
             </div>
             <div className='company-info-container'>
               <div>개발사</div>
