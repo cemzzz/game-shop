@@ -1,4 +1,4 @@
-.product-loading-container{
+.home-loading-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,11 +7,11 @@
     gap: 100px;
 }
 
-.product-loading{
+.home-loading{
     width: 100px;
     height: 100px;
 }
 
-.product-loading-text{
+.home-loading-text{
     font-size: 20px;
 }
