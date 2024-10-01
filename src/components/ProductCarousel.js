@@ -3,8 +3,7 @@ import './ProductCarousel.css';
 import { Col, Container, Row } from 'react-bootstrap';
 
 const Carousel = ({sortedProduct}) => {
-
-  const [mainImage, setMainImage] = useState(sortedProduct[0]?.img) //메인 이미지 상태 설정
+  const [mainImage, setMainImage] = useState(sortedProduct[0]?.img || "") //메인 이미지 상태 설정
   const [currentIndex, setCurrentIndex] = useState(0);  // 현재 인덱스를 관리
   const timeoutRef = useRef(null); // 타임아웃 레퍼런스 관리
 
@@ -26,8 +25,8 @@ const Carousel = ({sortedProduct}) => {
     }, 5000); // 5초 후 다음 이미지로 전환
   }, [sortedProduct]);
 
-   //서브 이미지 클릭 시 메인 이미지로 출력
-   const subImageClick = (imgUrl) => {
+  //서브 이미지 클릭 시 메인 이미지로 출력
+  const subImageClick = (imgUrl) => {
     setMainImage(imgUrl);
     setCurrentIndex(sortedProduct.findIndex(product => product.img === imgUrl)); // 클릭한 이미지의 인덱스를 업데이트
     resetTimeout()
@@ -36,12 +35,16 @@ const Carousel = ({sortedProduct}) => {
   //자동 슬라이드
   useEffect(() => {
     if (sortedProduct.length === 0) return;
-    setMainImage(sortedProduct[0].img);
+    // setMainImage(sortedProduct[0].img);
+
+    if (!mainImage) {
+      setMainImage(sortedProduct[0].img);
+    }
 
     resetTimeout(); // 컴포넌트 마운트 시 타이머 설정
 
     return () => clearTimeout(timeoutRef.current); // 컴포넌트 언마운트 시 타이머 정리
-  }, [sortedProduct, resetTimeout]);
+  }, [sortedProduct, resetTimeout, mainImage]);
 
   // 상태값이 업데이트될 때마다 타이머 초기화
   useEffect(() => {

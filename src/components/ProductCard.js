@@ -7,9 +7,11 @@ const ProductCard = ({item}) => {
   const discountedPrice = originalPrice - (originalPrice * (item?.discountRate / 100)); // 할인 가격
   
   const navigate = useNavigate()
+
   const goDetailProduct = () => {
     navigate(`/product/${item.id}`)
   }
+
   return (
     <div>
         <div className='card-container' onClick={goDetailProduct}>

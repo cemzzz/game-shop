@@ -1,184 +1,422 @@
 {
-    "products":[
+    "products": [
         {
-            "id":0,
-            "img":"https://image.api.playstation.com/vulcan/ap/rnd/202405/2117/bd406f42e9352fdb398efcf21a4ffe575b2306ac40089d21.png?w=440&thumb=false",
-            "title":"검은 신화: 오공",
-            "price":69000,
+            "id": 0,
+            "img": "https://image.api.playstation.com/vulcan/ap/rnd/202405/2117/bd406f42e9352fdb398efcf21a4ffe575b2306ac40089d21.png?w=440&thumb=false",
+            "title": "검은 신화: 오공",
+            "content": "신화의 전설을 바탕으로 한 액션 RPG입니다.",
+            "price": 69000,
             "discountRate": 20,
             "onSale": false,
-            "like" : 3500,
-            "adult":true
+            "like": 3500,
+            "developer": "개발사 이름",
+            "publisher": "발행사 이름",
+            "releaseDate": "2024. 08. 07",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_86c4b7462bba219a0d0b89931a35812b9f188976.600x338.jpg?t=1725007201",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_d9391ab31a4d15dddf7ba4949bfa44f5d9170580.600x338.jpg?t=1725007201",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_415397426d4c939ebb8a93ac66831f28ee7199be.600x338.jpg?t=1725007201",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_63477e8ce2c0582b81c6ed576377d78e692b5642.600x338.jpg?t=1725007201",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/ss_524a39da392ee83dde091033562bc719d46b5838.600x338.jpg?t=1725007201"
+            ]
         },
         {
             "id": 1,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/djK6jT1fLm7oeEUpzbBguyad.png?w=440&thumb=false",
             "title": "호라이즌 포비든 웨스트",
+            "content": "이야기 속에서 새로운 지역을 탐험하는 게임입니다.",
             "price": 72000,
             "discountRate": 40,
             "onSale": true,
-            "like" : 1500,
-            "adult": false
+            "like": 1500,
+            "developer": "Guerrilla Games",
+            "publisher": "Sony Interactive Entertainment",
+            "releaseDate": "2022. 02. 18",
+            "platForm" : "PC | PS",
+            "adult": false,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/ss_7c1ead4b3d952fd0fb92735397945bd8732bba53.600x338.jpg?t=1725653368",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/ss_2d05273cef37bcc3651dc9dbea42dbeca5f5f196.600x338.jpg?t=1725653368",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/ss_87750b2dbc34d82d1ffef7aaab40a9f46d970d99.600x338.jpg?t=1725653368",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/ss_a4a19b86e80488f3d608e835e5ae3086760db866.600x338.jpg?t=1725653368",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/ss_16055ecb20ad2879811db3e97375aef43eef0a8c.600x338.jpg?t=1725653368"
+            ]
         },
         {
             "id": 2,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1117/HHaDDImrG8LTTepkc1cTWYSb.png?w=440&thumb=false",
             "title": "갓 오브 워 라그나로크",
+            "content": "라그나로크가 도착하기 전에, 크레토스와 아트레우스는 답을 찾기 위한 신화 속 여정을 시작합니다. 이제 PC로 즐기세요.",
             "price": 80000,
             "discountRate": 20,
             "onSale": true,
-            "like" : 500,
-            "adult": true
+            "like": 500,
+            "developer": "Santa Monica Studio, Jetpack Interactive",
+            "publisher": "PlayStation Publishing LLC",
+            "releaseDate": "2024. 09. 20",
+            "platForm" : "PC | PS",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/ss_7c59382e67eadf779e0e15c3837ee91158237f11.600x338.jpg?t=1727469877",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/ss_05f27139b15c5410d07cd59b7b52adbdf73e13da.600x338.jpg?t=1727469877",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/ss_974a7b998c0c14da7fe52a342cf36c98850a57ac.600x338.jpg?t=1727469877",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/ss_78350297511e81f287b4bc361935efbc3016f6db.600x338.jpg?t=1727469877",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/ss_7cbcd6847cac4d2d42f496954d0df715c6af0b3a.600x338.jpg?t=1727469877"
+            ]
         },
         {
             "id": 3,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202211/1404/RMELUDlp2uzJ3EmsVhzr00A6.png?w=440&thumb=false",
             "title": "파이널 판타지 XVI",
+            "content": "차세대 판타지 RPG로, 새로운 이야기를 경험해보세요.",
             "price": 75000,
             "discountRate": 10,
             "onSale": false,
-            "like" : 1200,
-            "adult": true
+            "like": 1200,
+            "developer": "Square Enix",
+            "publisher": "Square Enix",
+            "releaseDate": "2023. 06. 22",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/ss_99530c1f839832ceeab2cf3450d5c0905312de47.600x338.jpg?t=1727431607",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/ss_7620e893321e1661bdf821617f349196c2b0019f.600x338.jpg?t=1727431607",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/ss_04ef537e3123d4a8dcbbadccc190cf87dee67783.600x338.jpg?t=1727431607",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/ss_d3aea73c0bea755c7152ee339ebb7f7dfefe8f91.600x338.jpg?t=1727431607",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2515020/ss_90a7849fb556c73db88ac37afb1cce44ac39bfab.600x338.jpg?t=1727431607"
+            ]
         },
         {
             "id": 4,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202106/2214/7aFAQ28D5avzogf7TFg11ryH.png?w=440&thumb=false",
             "title": "데스 스트랜딩 디렉터스 컷",
+            "content": "브리짓은 세상의 연결을 위해 싸우는 당신을 기다립니다.",
             "price": 60000,
             "discountRate": 10,
             "onSale": false,
-            "like" : 750,
-            "adult": true
+            "like": 750,
+            "developer": "Kojima Productions",
+            "publisher": "Sony Interactive Entertainment",
+            "releaseDate": "2021. 09. 24",
+            "platForm" : "PC | PS",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_f64a1140651ff5af30eb63bb6e5b41753d00a98e.600x338.jpg?t=1725036030",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_4b6d7d010d1701b2b57bf8ef1b4975a04b3d632f.600x338.jpg?t=1725036030",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_bc8812817c074772822c1d1e8a6b016983cf05e8.600x338.jpg?t=1725036030",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_d47bde2e349606b3ef1f641e2d8fb7ccf1adba77.600x338.jpg?t=1725036030",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_73eb002b5070299aae3727bd07ce6d51e4a82b10.600x338.jpg?t=1725036030"
+            ]
         },
         {
             "id": 5,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/qzLA7yc2Z85jeqOgLK8Fn1fG.png?w=440&thumb=false",
             "title": "바이오 하자드 빌리지",
+            "content": "생존 호러의 새로운 장을 열어보세요.",
             "price": 69000,
             "discountRate": 15,
             "onSale": false,
-            "like" : 1500,
-            "adult": true
+            "like": 1500,
+            "developer": "Capcom",
+            "publisher": "Capcom",
+            "releaseDate": "2021. 05. 07",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_d25704b01be292d1337df4fea0fba2aab322b58a.600x338.jpg?t=1719197703",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_8113ec993ec474055c4cdce5ee86f91f7cf6663f.600x338.jpg?t=1719197703",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_50283e6df9d2f3f24ff4a1a36a94ae307e21cee8.600x338.jpg?t=1719197703",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_363d9c05ee0a974b766938610a3352e7a89b9c92.600x338.jpg?t=1719197703",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/ss_e2bdaa9a0eeae714b3ad3ba49c9ae83a3930f08e.600x338.jpg?t=1719197703"
+            ]
         },
         {
             "id": 6,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202109/1321/yZ7dpmjtHr1olhutHT57IFRh.png?w=440&thumb=false",
             "title": "그란 투리스모 7",
+            "content": "자동차 경주의 전설적인 시리즈가 돌아왔습니다.",
             "price": 70000,
             "discountRate": 10,
             "onSale": true,
-            "like" : 500,
-            "adult": false
+            "like": 500,
+            "developer": "Polyphony Digital",
+            "publisher": "Sony Interactive Entertainment",
+            "releaseDate": "2022. 03. 04",
+            "platForm" : " PS | X-BOX",
+            "adult": false,
+            "detailImages": [
+                "https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-screenshot-01-disclaimer-en-01oct20?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-screenshot-08-disclaimer-en-01oct20?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-screenshot-02-disclaimer-en-01oct20?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-screenshot-07-en-09sept21?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/gran-turismo-7-screenshot-07-disclaimer-en-01oct20?$600px$"
+            ]
         },
         {
             "id": 7,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202012/0815/7CRynuLSAb0vysSC4TmZy5e4.png?w=440&thumb=false",
             "title": "잇 테이크스 투",
+            "content": "협력의 힘을 발휘해 보세요.",
             "price": 40000,
             "discountRate": 40,
             "onSale": true,
-            "like" : 1350,
-            "adult": false
+            "like": 1350,
+            "developer": "Hazelight Studios",
+            "publisher": "Electronic Arts",
+            "releaseDate": "2021. 03. 26",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": false,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_3e59753eefaba9a7704a18e902b48e8d38e95e0b.600x338.jpg?t=1725585631",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_6e987a0678b013bfd0073a9ac4703e1f04ca4dea.600x338.jpg?t=1725585631",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_fdac523e3ea4d2f32a44449bb8c224857563bd7d.600x338.jpg?t=1725585631",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_d7a931229cbf1cc25975bb5860cbde5b9bbc826a.600x338.jpg?t=1725585631",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/ss_6ce2d50261a94284c72164e2d6d3721fe2f00013.600x338.jpg?t=1725585631"
+            ]
         },
         {
-            "id": 9,
+            "id": 8,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202405/3123/1abfc0f37be11993bd5e67fcb1a9e2c0d656142ace2f232e.png?w=440&thumb=false",
             "title": "디아블로 IV",
+            "content": "악의 세력과 맞서 싸우는 여정을 떠나보세요.",
             "price": 79000,
             "discountRate": 50,
             "onSale": true,
-            "like" : 400,
-            "adult": true
+            "like": 400,
+            "developer": "Blizzard Entertainment",
+            "publisher": "Blizzard Entertainment",
+            "releaseDate": "2023. 06. 06",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ss_9c2a21be6fe9f1eb93d1101d0ec58ed5b6dffba3.600x338.jpg?t=1724262498",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ss_5c0707c8b6f0cd0cde062730fb880d12e4588c96.600x338.jpg?t=1724262498",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ss_e50a756c0dcfa15eb51ea27444b68a4dd4078732.600x338.jpg?t=1724262498",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ss_7b1f43b0ddbfdc5853147b997c877b7af90a1e9a.600x338.jpg?t=1724262498",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ss_08c4a709eaade11c8c49fbcc149ec292dcda1274.600x338.jpg?t=1724262498"
+            ]
         },
         {
-            "id": 10,
+            "id": 9,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202108/0410/np2Eb60bDep9fDWtqNNSzqZI.png?w=440&thumb=false",
             "title": "엘든 링",
+            "content": "오픈 월드 액션 RPG의 새로운 지평을 열다.",
             "price": 75000,
             "discountRate": 25,
             "onSale": false,
-            "like" : 2210,
-            "adult": true
+            "like": 2210,
+            "developer": "FromSoftware",
+            "publisher": "Bandai Namco Entertainment",
+            "releaseDate": "2022. 02. 25",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.600x338.jpg?t=1726158298",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.600x338.jpg?t=1726158298",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.600x338.jpg?t=1726158298",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_510a02cf3045e841e180f2b77fb87545e0c8b59d.600x338.jpg?t=1726158298",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_c2baf8aada6140beee79d701d14043899e91af47.600x338.jpg?t=1726158298"
+            ]
         },
         {
-            "id": 11,
+            "id": 10,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202111/3013/wTHTD6xDqiFEKL2JPZDRN57n.png?w=440&thumb=false",
             "title": "사이버펑크 2077",
+            "content": "미래 도시에서의 서사적 경험을 제공하는 게임입니다.",
             "price": 59000,
             "discountRate": 50,
             "onSale": true,
-            "like" : 1780,
-            "adult": true
+            "like": 1780,
+            "developer": "CD Projekt Red",
+            "publisher": "CD Projekt",
+            "releaseDate": "2020. 12. 10",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.600x338.jpg?t=1726188854",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4eb068b1cf52c91b57157b84bed18a186ed7714b.600x338.jpg?t=1726188854",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.600x338.jpg?t=1726188854",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_284ba40590de8f604ae693631c751a0aefdc452e.600x338.jpg?t=1726188854",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.600x338.jpg?t=1726188854"
+            ]
         },
         {
-            "id": 12,
+            "id": 11,
             "img": "https://image.api.playstation.com/vulcan/img/rnd/202010/2701/sVLb4wrkXcFff2uuSS8tvErW.png?w=440&thumb=false",
             "title": "세키로: 섀도우 다이 트와이스",
+            "content": "전투와 스토리를 결합한 액션 게임입니다.",
             "price": 69000,
             "discountRate": 35,
             "onSale": false,
-            "like" : 1500,
-            "adult": true
+            "like": 1500,
+            "developer": "FromSoftware",
+            "publisher": "Activision",
+            "releaseDate": "2020. 03. 22",
+            "platForm" : "PC | PS",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.600x338.jpg?t=1726158438",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_2685dd844a2a523b6c7ec207d46a538db6a908cd.600x338.jpg?t=1726158438",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_1e6f5540866a5564d65df915c22fe1e57e336a6f.600x338.jpg?t=1726158438",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_3d6b38c382c0eafb02dc90d22f33fd292e4e5cf3.600x338.jpg?t=1726158438",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_15f0e9982621aed44900215ad283811af0779b1d.600x338.jpg?t=1726158438"
+            ]
+        },
+        {
+            "id": 12,
+            "img": "https://image.api.playstation.com/vulcan/img/rnd/202010/2619/pBgCXC63qPCxnZLl1gDDQcZO.png?w=440&thumb=false",
+            "title": "라스트 오브 어스 파트 II",
+            "content": "전쟁과 생존의 이야기를 담은 게임입니다.",
+            "price": 79000,
+            "discountRate": 10,
+            "onSale": false,
+            "like": 1000,
+            "developer": "Naughty Dog",
+            "publisher": "Sony Interactive Entertainment",
+            "releaseDate": "2020. 06. 19",
+            "platForm" : "PC | PS",
+            "adult": true,
+            "detailImages": [
+                "https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-ii-screen-03-ps4-us-05dec16?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-ii-screen-us-11jun18-10?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-state-of-play-screen-05-ps4-us-24sep19?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-state-of-play-screen-06-ps4-us-24sep19?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-state-of-play-screen-03-ps4-us-24sep19?$600px$"
+            ]
         },
         {
             "id": 13,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202102/1214/gcMVHVG82HnDo0A6WHl6WR6H.png?w=440&thumb=false",
             "title": "디스코 엘리시움",
+            "content": "디스코 엘리시움은 깊이 있는 스토리와 캐릭터를 경험할 수 있는 RPG입니다.",
             "price": 55000,
             "discountRate": 35,
             "onSale": true,
-            "like" : 300,
-            "adult": true
+            "like": 300,
+            "developer": "ZA/UM",
+            "publisher": "ZA/UM",
+            "releaseDate": "2019. 10. 15",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_b3694e99ffdb686d1bbbbe16a540d3d2ccd509c4.600x338.jpg?t=1727256511",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_9125a718ee9ba85386ae5d4eb820f3266073fc97.600x338.jpg?t=1727256511",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_4f5fdc3cf42feca8dafb1f7d2910ef96e62708a2.600x338.jpg?t=1727256511",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_ab38615b3a1d0d4309f06772db4bd9db5c250ef7.600x338.jpg?t=1727256511",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_81ea48324fbac48a00e482781be56cd57d796620.600x338.jpg?t=1727256511"
+            ]
         },
         {
             "id": 14,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202408/2010/be34a9f718363d63217057ddcc202a6847e532be4cd7b075.png?w=440&thumb=false",
             "title": "원신",
+            "content": "원신은 개방형 세계를 탐험하며 다양한 캐릭터를 조작하는 액션 RPG입니다.",
+            "price": 0,
             "discountRate": 0,
             "onSale": false,
-            "price": 0,
-            "like" : 2200,
-            "adult": false
+            "like": 2200,
+            "developer": "miHoYo",
+            "publisher": "miHoYo",
+            "releaseDate": "2020. 09. 28",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": false,
+            "detailImages": [
+                "https://gmedia.playstation.com/is/image/SIEPDC/genshin-impact-5.0-screenshot-07-en-28aug24?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/genshin-impact-5.0-screenshot-03-en-28aug24?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/genshin-impact-5.0-screenshot-01-en-28aug24?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/genshin-impact-5.0-screenshot-08-en-28aug24?$600px$",
+                "https://gmedia.playstation.com/is/image/SIEPDC/genshin-impact-screenshot-11-en-15jan21?$600px$"
+            ]
         },
         {
             "id": 15,
             "img": "https://image.api.playstation.com/cdn/HP0102/CUSA09554_00/l9eJJZczCIIcT1otva8c0EvKhlVyPy0zVLdhVZ5RJzO7NGZrRvoDOhIEFU1sJwtM.png?w=440&thumb=false",
             "title": "몬스터 헌터: 월드",
+            "content": "몬스터 헌터: 월드는 다양한 몬스터를 사냥하고 수집하는 액션 RPG입니다.",
+            "price": 21000,
             "discountRate": 70,
             "onSale": false,
-            "price": 21000,
-            "like" : 2235,
-            "adult": true
+            "like": 2235,
+            "developer": "Capcom",
+            "publisher": "Capcom",
+            "releaseDate": "2018. 01. 26",
+            "platForm" : "PC | PS",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_a262c53b8629de7c6547933dc0b49d31f4e1b1f1.600x338.jpg?t=1711328912",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_0dfb20f6f09c196bfc317bd517dc430ed6e6a2a4.600x338.jpg?t=1711328912",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_681cc5358ec55a997aee9f757ffe8b418dc79a32.600x338.jpg?t=1711328912",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_6d26868b45c20bf4dd5f75f31264aca08ce17217.600x338.jpg?t=1711328912",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_6d26868b45c20bf4dd5f75f31264aca08ce17217.600x338.jpg?t=1711328912"
+            ]
         },
         {
             "id": 16,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202409/0304/db646393eb32d9c7d947a703fa6ea01fae60781bc1841148.png?w=440&thumb=false",
             "title": "퍼스트 디센던트",
+            "content": "퍼스트 디센던트는 화려한 그래픽과 액션이 결합된 슈팅 RPG입니다.",
+            "price": 0,
             "discountRate": 0,
             "onSale": false,
-            "price": 0,
-            "like" : 1600,
-            "adult": true
+            "like": 1600,
+            "developer": "Nexon",
+            "publisher": "Nexon",
+            "releaseDate": "2024. 01. 18",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2074920/ss_72b515ee7afdcd2d95b142ee1a706fd71d74552d.600x338.jpg?t=1727161220",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2074920/ss_a502e524f9a0e9142ffb38638cb867a7cb448147.600x338.jpg?t=1727161220",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2074920/ss_6476e1c79bcd7f8e87c33eb397fc67b091cfbf6f.600x338.jpg?t=1727161220",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2074920/ss_b55b78b901985900ef0bba95288f5fd314c1751f.600x338.jpg?t=1727161220",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2074920/ss_4062fa1e55dec8d2ca45cdc7214e8f103679f028.600x338.jpg?t=1727161220"
+            ]
         },
         {
             "id": 17,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202205/2800/W5uSEsW7yefCNTHatS03v5q7.png?w=440&thumb=false",
             "title": "콜 오브 듀티: 모던 워페어 II",
+            "content": "콜 오브 듀티: 모던 워페어 II는 전략적 팀 전투를 중심으로 한 FPS 게임입니다.",
+            "price": 79000,
             "discountRate": 40,
             "onSale": false,
-            "price": 79000,
-            "like" : 1750,
-            "adult": true
+            "like": 1750,
+            "developer": "Infinity Ward",
+            "publisher": "Activision",
+            "releaseDate": "2022. 10. 28",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": true,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962660/ss_a063131155b6c639186b11c58849c833a8e78547.600x338.jpg?t=1710969334",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962660/ss_19817f6570683b2bc1719feb42f24d45d8ddbb29.600x338.jpg?t=1710969334",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962660/ss_d3796f8f2fdb3d2db970dfb91e3b05c7c9abd132.600x338.jpg?t=1710969334",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962660/ss_df66c02de03412cc83cff3ceb0cb24bb7fc6a7b1.600x338.jpg?t=1710969334",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962660/ss_a016dc0a9c0d0c557476e0c753c07162d25d5eff.600x338.jpg?t=1710969334"
+            ]
         },
         {
             "id": 18,
             "img": "https://image.api.playstation.com/vulcan/ap/rnd/202407/1814/07a6fda04cc8874d465605538724103f78e3f4deeede69d3.png?w=440&thumb=false",
             "title": "FC25",
+            "content": "FC25는 최신 축구 게임으로, 리얼한 경기 경험을 제공합니다.",
+            "price": 83000,
             "discountRate": 10,
             "onSale": true,
-            "price": 83000,
-            "like" : 1000,
-            "adult": false
+            "like": 1000,
+            "developer": "EA Sports",
+            "publisher": "Electronic Arts",
+            "releaseDate": "2024. 09. 25",
+            "platForm" : "PC | PS | X-BOX",
+            "adult": false,
+            "detailImages": [
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669320/ss_857b4aaf3c10b2a886d60f029f32b2f86d968311.600x338.jpg?t=1727470248",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669320/ss_aeeea35bf96fad387b97befd9a5c4b9d8ee2ac1a.600x338.jpg?t=1727470248",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669320/ss_c8460408705b54e37228cc320a2da1c19e4dc12f.600x338.jpg?t=1727470248",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669320/ss_ee0be94a0a8e1325050481bcf351d736e6d2982d.600x338.jpg?t=1727470248",
+                "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669320/ss_bab390c4ca80ca91d5984440cec2eea12b4848ba.600x338.jpg?t=1727470248"
+            ]
         }
     ]
 }

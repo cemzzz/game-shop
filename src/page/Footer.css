@@ -1,0 +1,42 @@
+.footer-container{
+    width: 100%;
+    margin-top: 400px;
+    background-color: #202020;
+    padding: 50px;
+}
+
+.footer-content{
+    color: #CCCCCC;
+    font-size: 12px;
+}
+
+.footer-line{
+    border-top: 1px solid #7c7c7c;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* 이용약관 영역 */
+
+.footer-notify-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-notify-sub-container{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-notify-content{
+    font-size: 12px;
+}
+
+.footer-notify-content:hover{
+    cursor: pointer;
+}
+
+.footer-notify-icon:hover{
+    cursor: pointer;
+}

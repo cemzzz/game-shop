@@ -1,0 +1,54 @@
+.spec-info-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #202024;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+/* 게임 스펙 사양 */
+.spec-info-sub-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.spec-info-detail-container{
+    margin-top: 15px;
+}
+
+.spec-info-title{
+    color: #AAAAAC;
+    font-size: 13px;
+}
+
+.spec-info-content{
+    font-size: 14px;
+}
+
+/* 게임 지원 언어 */
+.spec-language-container{
+    margin-top: 50px;
+}
+
+.spec-language-title{
+    margin-bottom: 20px;
+    color: #AAAAAC;
+}
+
+.spec-language-title-text{
+    color: #AAAAAC;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.spec-language-content-text{
+    font-size: 14px;
+}
+
+/* 경고 문구 */
+.warning-content{
+    margin-top: 50px;
+    font-size: 14px;
+    color: #AAAAAC;
+}

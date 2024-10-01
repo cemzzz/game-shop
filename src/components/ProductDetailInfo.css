@@ -1,0 +1,109 @@
+.product-Detail-container{
+    overflow-x: hidden;
+}
+
+.product-Detail-title{
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: #26BBFF;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+/* 게임 이미지 정보 영역 */
+.product-info-img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.product-info-main-img{
+    border-radius: 10px;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .product-info-main-img {
+        max-width: 100%; 
+        height: auto; 
+    }
+}
+
+.product-info-sub-img-container{
+    margin-top: 10px;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.product-info-sub-img{
+    width: 116px;
+    height: auto;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+@media (max-width: 768px) {
+    .product-info-sub-img {
+        max-width: 100%; 
+        height: auto; 
+    }
+}
+
+.product-info-sub-img.selected {
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+
+.product-info-sub-img:hover{
+    cursor: pointer;
+}
+
+/* 게임 상세 정보 영역 */
+.product-info-detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    gap: 15px;
+}
+
+.product-info-detail-content{
+    font-size: 14px;
+}
+
+.product-info-btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.buy-button{
+    width: 250px;
+    padding: 10px;
+    background-color: #26BBFF;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.cart-button{
+    width: 250px;
+    padding: 10px;
+    background-color: #343437;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.company-info-container {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 100%;
+}

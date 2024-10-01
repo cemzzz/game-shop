@@ -7,6 +7,9 @@ import { useNavigate } from 'react-router-dom';
 
 const Navbar = ({authenticate, setAuthenticate}) => {
   const navigate = useNavigate()
+  const goHomePage = () =>{
+    navigate('/')
+  }
   const goLoginPage = () => {
     navigate('/login')
   }
@@ -19,7 +22,7 @@ const Navbar = ({authenticate, setAuthenticate}) => {
     <div>
         <nav className='navbar-top'>
             <div className='navbar-top-left'>
-                <FontAwesomeIcon className='navbar-top-logo' icon={faGamepad}/>
+                <FontAwesomeIcon className='navbar-top-logo' onClick={goHomePage} icon={faGamepad}/>
                 <h5 className='navbar-top-store-name'>STORE</h5>
             </div>
             <div className='navbar-top-right'>

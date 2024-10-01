@@ -4,8 +4,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 import ProductCarousel from '../components/ProductCarousel';
 import SearchBar from '../components/SearchBar';
 
+
 const Home = () => {
   const [productList, setProductList] = useState([]);
+  const [searchTerm, setSearchTerm] = useState(""); // 검색어 상태 관리
   
   const getProducts= async () => {
     let url = `http://localhost:5000/products`
@@ -24,15 +26,20 @@ const Home = () => {
     .sort((a, b) => b.like - a.like) // 내림차순
     .slice(0, 5); // 상위 5개 선택
 
+  // 검색어에 따라 필터링된 제품 리스트
+  const filteredProducts = productList.filter((product) =>
+    product.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );  
+
   return (
     <div>
       <Container>
-        <SearchBar />
+        <SearchBar setSearchTerm={setSearchTerm}/>
         <Row>
           <ProductCarousel sortedProduct={sortedProduct}/>
         </Row>
         <Row>
-          {productList.map((menu)=>(
+          {filteredProducts.map((menu)=>(
             <Col key={menu.id} lg={3} md={4} sm={6}>
               <ProductCard item={menu}/>
             </Col>
