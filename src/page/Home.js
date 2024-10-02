@@ -15,8 +15,8 @@ const Home = () => {
   const getProducts= async () => {
     setLoading(true); // 데이터 로딩 시작
     try{
-      let url = `https://my-json-server.typicode.com/cemzzz/game-shop/db/products`
-      // let url = `http://localhost:5000/products`
+      // let url = `https://my-json-server.typicode.com/cemzzz/game-shop/db/products`
+      let url = `http://localhost:5000/products`
       let response = await fetch(url);
       let data = await response.json();
       setProductList(data);
