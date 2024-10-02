@@ -64,7 +64,7 @@ const CartInfo = () => {
                    
                     ))
                     ) : (
-                    <div>장바구니에 담긴 제품이 없습니다.</div>
+                    <div className='cart-no-notify'>장바구니에 담긴 제품이 없습니다.</div>
                 )}
                 </Col>
                 <Col className='cart-buy-info-container' lg={3}>

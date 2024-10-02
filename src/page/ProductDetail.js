@@ -30,6 +30,7 @@ const ProductDetail = () => {
 
   useEffect(()=>{
     getProductDetail()
+    window.scrollTo(0, 0);
   },[id])
 
   return (
@@ -39,7 +40,7 @@ const ProductDetail = () => {
         (
           <div className="product-loading-container">
             <Spinner className='product-loading' animation="border" />
-            <p className='product-loading-text'>로딩 중...</p>
+            <p className='product-loading-text'>상품 정보를 불러오고 있는 중입니다.</p>
           </div>
         ) : (
           <div>

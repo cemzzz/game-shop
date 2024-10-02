@@ -51,6 +51,14 @@
     text-decoration: underline;
 }
 
+.cart-no-notify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 20px;
+}
+
 /* 장바구니 결제 정보 영역 */
 .cart-buy-info-container{
     position: sticky;
