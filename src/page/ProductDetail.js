@@ -13,8 +13,8 @@ const ProductDetail = () => {
   const getProductDetail = async () => {
     setLoading(true); 
     try{
-      // let url = ` https://my-json-server.typicode.com/cemzzz/game-shop/db/products/${id}`
-      let url = `http://localhost:5000/products/${id}`
+      let url = `https://my-json-server.typicode.com/cemzzz/game-shop/products/${id}`
+      // let url = `http://localhost:5000/products/${id}`
       let response = await fetch(url)
       if (!response.ok) {
         throw new Error("예기치 못한 오류가 발생하였습니다.");
