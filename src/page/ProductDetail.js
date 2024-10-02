@@ -13,7 +13,7 @@ const ProductDetail = () => {
   const getProductDetail = async () => {
     setLoading(true); 
     try{
-      let url = ` https://my-json-server.typicode.com/cemzzz/game-shop/products/${id}`
+      let url = ` https://my-json-server.typicode.com/cemzzz/game-shop/db/products/${id}`
       // let url = `http://localhost:5000/products/${id}`
       let response = await fetch(url)
       if (!response.ok) {
