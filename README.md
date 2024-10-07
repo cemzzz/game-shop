@@ -75,15 +75,26 @@ my-json-server 이슈로 인해 데이터를 못불러오고 있어 시연 영�
 
 <h3> 상품 상세페이지 확인 </h3>
 <div>
- <div> 프론트엔드 작업만 된 상황으로 임의의 값을 넣거나 아무값을 넣지 않아도 로그인이 되는 상태입니다. </div>
- <div> 로그인이 되면 authenticate값이 true로 변하며 true일 때 상품 상세페이지를 확인할 수 있게 설정했습니다. </div>
- <div> 로그아웃을 하면 authenticate값이 false로 변하며 이 때는 다시 로그인해야 상세 페이지를 확인할 수 있습니다. </div>
+ <div>  authenticate값이 true면 상품 상세페이지로 이동하고 false면 로그인 페이지로 이동합니다. </div>
+ <div> 상품 상세페이지에서 로그아웃하면 다시 홈화면으로 이동합니다. </div>
+ <div> 화면 구성은 이미지, 게임 정보, 사양 정보 등으로 구성되어 있습니다. </div>
 </div>
 <div>
- <img width="100%" src="https://github.com/user-attachments/assets/2f34ec21-503e-4f5d-bd68-9d90d410130d"/>
+ <img width="100%" src="https://github.com/user-attachments/assets/b9e52abb-46dd-4154-9f0e-2338b35b8ab5"/>
 </div>
 
 
 <div>
    <p>---------------------------------------------------------------------------------------------------------------------------------</p>
 </div>
+
+<h3> 장바구니 </h3>
+<div>
+ <div> 장바구니 버튼 클릭 시 장바구니에 담기며 다시 담기 시도할 경우 담겨지지 않게 설정했습니다. </div>
+ <div> 총액은 장바구니에 담긴 게임 가격이 합해진 가격이며 할인할 경우 할인된 금액이 계산됩니다. </div>
+ <div> 제거 선택 시 해당 상품은 장바구니에 사라지며 이 때 다시 장바구니에 담을 수 있습니다. </div>
+</div>
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/693d2835-49f6-4dc5-aa49-1dff7a1c9b47"/>
+</div>
+
