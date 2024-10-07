@@ -20,6 +20,7 @@ my-json-server 이슈로 인해 데이터를 못불러오고 있어 시연 영�
 # 개발 일지
 <div><a href="https://blog.naver.com/jhcemzzz/223595928655">개발 일지 - 1</a></div>
 <div><a href="https://blog.naver.com/jhcemzzz/223598795916">개발 일지 - 2</a></div>
+<div><a href="https://blog.naver.com/jhcemzzz/223610055916">개발 일지 - 3</a></div>
 
 
 
