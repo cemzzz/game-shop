@@ -31,9 +31,37 @@ my-json-server 이슈로 인해 데이터를 못불러오고 있어 시연 영�
 
 <h3> 시연 영상 </h3>
 
-<div>
-  <img width="70%" src=""/>
+<div><a href="https://blog.naver.com/jhcemzzz/223610055916">시연 영상 주소1572B6?style=for-the-badge&logo=css3&logoColor=white">
+ <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+ <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
 </div>
+
+
+ 
+# 📑 프로젝트 수행절차
+<li>개발 기간: 24/9/24 ~ 24/10/2</li>
+<li>개인 프로젝트</li>
+
+# 홈페이지
+my-json-server 이슈로 인해 데이터를 못불러오고 있어 시연 영상으로 대체하겠습니다.
+양해부탁드립니다. (_ _)
+
+<div><a href="https://blog.naver.com/jhcemzzz/223610062360">시연 영상 주소</a></div>
+
+# 개발 일지
+<div><a href="https://blog.naver.com/jhcemzzz/223595928655">개발 일지 - 1</a></div>
+<div><a href="https://blog.naver.com/jhcemzzz/223598795916">개발 일지 - 2</a></div>
+<div><a href="https://blog.naver.com/jhcemzzz/223610055916">개발 일지 - 3</a></div>
+
+
+
+# 📌 프로젝트 개요
+
+
+<h3> 시연 영상 </h3>
+
+<div><a href="https://blog.naver.com/jhcemzzz/223610055916">시연 영상 주소</a></div>
+
 
 
 
