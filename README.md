@@ -29,7 +29,7 @@ my-json-server 이슈로 인해 데이터를 못불러오고 있어 시연 영�
 <h3> 시연 영상 </h3>
 
 <div>
-  <img width="70%" src="https://github.com/user-attachments/assets/e53b2bd4-a178-4d8c-a128-8202b2e0045b"/>
+  <img width="70%" src=""/>
 </div>
 
 
@@ -50,7 +50,7 @@ my-json-server 이슈로 인해 데이터를 못불러오고 있어 시연 영�
 </div>
 
 <div>
- <img width="100%" src="https://github.com/user-attachments/assets/e9ea6b62-756b-43a7-80ee-906c18e5eac6"/>
+ <img width="50%" src="https://github.com/user-attachments/assets/e9ea6b62-756b-43a7-80ee-906c18e5eac6"/>
 </div>
 
 <div>
