@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+#  🛠 게임 판매 사이트를 제작한 리액트 프로젝트 입니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+ <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+ <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+ <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+ <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> 
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
+ 
+# 📑 프로젝트 수행절차
+<li>개발 기간: 24/9/24 ~ 24/10/2</li>
+<li>개인 프로젝트</li>
 
-### `npm start`
+# 홈페이지
+my-json-server 이슈로 인해 데이터를 못불러오고 있어 시연 영상으로 대체하겠습니다.
+양해부탁드립니다. (_ _)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 개발 일지
+<div><a href="https://blog.naver.com/jhcemzzz/223595928655">개발 일지 - 1</a></div>
+<div><a href="https://blog.naver.com/jhcemzzz/223598795916">개발 일지 - 2</a></div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📌 프로젝트 개요
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3> 시연 영상 </h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div>
+  <img width="70%" src="https://github.com/user-attachments/assets/e53b2bd4-a178-4d8c-a128-8202b2e0045b"/>
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div>
+ <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h3> 캐러셀 영역 </h3>
+<div>
+ <div>캐러셀 영역에는 like 순으로 top5의 게임이 표기가 됩니다.</div>
+ <div>자동 이동 설정은 5초로 설정했고 사용자가 선택하여 확인할 수도 있습니다.</div>
+ <div>모바일 해상도에서는 우측에 있는 5개 리스트가 점 형태로 보이게 설정했습니다.</div>
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<div>
+  <img width="100%" src="https://github.com/user-attachments/assets/fc43f515-12f0-4494-bc84-91be06369f16"/>
+</div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/e9ea6b62-756b-43a7-80ee-906c18e5eac6"/>
+</div>
 
-## Learn More
+<div>
+   <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h3> 로그인 </h3>
+<div>
+ <div> 프론트엔드 작업만 된 상황으로 임의의 값을 넣거나 아무값을 넣지 않아도 로그인이 되는 상태입니다. </div>
+ <div> 로그인이 되면 authenticate값이 true로 변하며 true일 때 상품 상세페이지를 확인할 수 있게 설정했습니다. </div>
+ <div> 로그아웃을 하면 authenticate값이 false로 변하며 이 때는 다시 로그인해야 상세 페이지를 확인할 수 있습니다. </div>
+</div>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/2f34ec21-503e-4f5d-bd68-9d90d410130d"/>
+</div>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div>
+   <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
 
-### Analyzing the Bundle Size
+<h3> 상품 상세페이지 확인 </h3>
+<div>
+ <div> 프론트엔드 작업만 된 상황으로 임의의 값을 넣거나 아무값을 넣지 않아도 로그인이 되는 상태입니다. </div>
+ <div> 로그인이 되면 authenticate값이 true로 변하며 true일 때 상품 상세페이지를 확인할 수 있게 설정했습니다. </div>
+ <div> 로그아웃을 하면 authenticate값이 false로 변하며 이 때는 다시 로그인해야 상세 페이지를 확인할 수 있습니다. </div>
+</div>
+<div>
+ <img width="100%" src="https://github.com/user-attachments/assets/2f34ec21-503e-4f5d-bd68-9d90d410130d"/>
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div>
+   <p>---------------------------------------------------------------------------------------------------------------------------------</p>
+</div>
