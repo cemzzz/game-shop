@@ -17,7 +17,7 @@
 my-json-server 이슈로 인해 데이터를 못불러오고 있어 시연 영상으로 대체하겠습니다.
 양해부탁드립니다. (_ _)
 
-시연 영상 주소 : https://blog.naver.com/jhcemzzz/223610062360
+<div><a href=" https://blog.naver.com/jhcemzzz/223610062360">시연 영상 주소</a></div>
 
 # 개발 일지
 <div><a href="https://blog.naver.com/jhcemzzz/223595928655">개발 일지 - 1</a></div>
